@@ -55,5 +55,9 @@ nav {
 #blog-container {
   padding: 3rem 0;
   color: black;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  /* display: wrap; */
 }
 
