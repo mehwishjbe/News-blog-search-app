@@ -8,6 +8,12 @@ body {
   position: relative;
 }
 
+/* GLOBAL CSS */
+.obj-width{
+  max-width: 1200px;
+  margin: auto;
+}
+
 nav {
   background-color: #2d4c50;
   box-shadow: 0 7px 10px rgba(0, 0, 0, 0.3);
@@ -47,7 +53,7 @@ nav {
 }
 
 #blog-container {
-  margin: 3rem 0;
+  padding: 3rem 0;
   color: black;
 }
 
