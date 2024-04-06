@@ -9,7 +9,7 @@ body {
 }
 
 /* GLOBAL CSS */
-.obj-width{
+.obj-width {
   max-width: 1200px;
   margin: auto;
 }
@@ -61,3 +61,9 @@ nav {
   /* display: wrap; */
 }
 
+.blog-card {
+  width: 280px;
+  border: solid 1px #2d4c50;
+  border-radius: 10px;
+  cursor: pointer;
+}
