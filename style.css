@@ -66,6 +66,8 @@ nav {
   border: solid 1px #2d4c50;
   border-radius: 10px;
   cursor: pointer;
+  padding: 1rem;
+  margin: 10px;
 }
 
 .blog-card img{
