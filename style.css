@@ -106,4 +106,8 @@ nav {
     max-width: 150px;
     padding: 10px 10px;
   }
+
+  .blog-card {
+    width: 100%;
+  }
 }
