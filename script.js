@@ -5,6 +5,8 @@ const blogContainer = document.getElementById("blog-card");
 async function fetchRandomNews() {
   try {
     const apiUrl = `https://newsapi.org/v2/top-headlines?country=us&pageSize10&apiKey=${apiKey}`;
+    const response = await fetch(apiUrl);
+    const data = await response.json();
   } catch (error) {
     console.error("Error fetching random news", error);
     return [];
