@@ -22,6 +22,8 @@ function displayBlog(articles) {
     const img = document.createElement("img");
     img.src = article.urlToImage;
     img.alt = article.title;
+    const title = document.createElement("h2");
+    title.textContent = article.title;
   });
 }
 
