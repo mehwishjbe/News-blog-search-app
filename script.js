@@ -24,6 +24,8 @@ function displayBlog(articles) {
     img.alt = article.title;
     const title = document.createElement("h2");
     title.textContent = article.title;
+    const description = document.createElement("p");
+    description.textContent = article.description;
   });
 }
 
