@@ -97,4 +97,8 @@ nav {
   nav {
     padding: 0 20px;
   }
+
+  .navbar .logo {
+    font-size: 1.8rem;
+  }
 }
