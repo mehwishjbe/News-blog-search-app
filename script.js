@@ -16,9 +16,12 @@ async function fetchRandomNews() {
 
 function displayBlog(articles) {
   blogContainer.innerHTML = "";
-  articles.forEach((articles) => {
+  articles.forEach((article) => {
     const blogCard = document.createElement("div");
     blogCard.classList.add("blog-card");
+    const img = document.createElement("img");
+    img.src = article.urlToImage;
+    img.alt = article.title;
   });
 }
 
