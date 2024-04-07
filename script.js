@@ -7,6 +7,8 @@ async function fetchRandomNews() {
     const apiUrl = `https://newsapi.org/v2/top-headlines?country=us&pageSize10&apiKey=${apiKey}`;
     const response = await fetch(apiUrl);
     const data = await response.json();
+    return data.articles;
+    console.log(data);
   } catch (error) {
     console.error("Error fetching random news", error);
     return [];
