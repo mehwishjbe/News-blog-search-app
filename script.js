@@ -15,10 +15,11 @@ async function fetchRandomNews() {
 }
 
 function displayBlog(articles) {
-    blogContainer.innerHTML = "";
-    articles.forEach((articles) => {
-        
-    });
+  blogContainer.innerHTML = "";
+  articles.forEach((articles) => {
+    const blogCard = document.createElement("div");
+    blogCard.classList.add("blog-card");
+  });
 }
 
 async () => {
