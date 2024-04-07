@@ -101,4 +101,9 @@ nav {
   .navbar .logo {
     font-size: 1.8rem;
   }
+
+  #search-input {
+    max-width: 150px;
+    padding: 10px 10px;
+  }
 }
