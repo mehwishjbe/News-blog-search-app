@@ -8,9 +8,18 @@ async function fetchRandomNews() {
     const response = await fetch(apiUrl);
     const data = await response.json();
     return data.articles;
-    console.log(data);
   } catch (error) {
     console.error("Error fetching random news", error);
     return [];
   }
 }
+
+
+async () => {
+    try {
+      const articles = await fetchRandomNews();
+      displayBlog(articles);
+    } catch (error) {
+      console.error("Error fetching random news", error);
+    }
+  };
