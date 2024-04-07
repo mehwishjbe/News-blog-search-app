@@ -15,7 +15,10 @@ async function fetchRandomNews() {
 }
 
 function displayBlog(articles) {
-    
+    blogContainer.innerHTML = "";
+    articles.forEach((articles) => {
+        
+    });
 }
 
 async () => {
