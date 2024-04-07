@@ -14,12 +14,15 @@ async function fetchRandomNews() {
   }
 }
 
+function displayBlog(articles) {
+    
+}
 
 async () => {
-    try {
-      const articles = await fetchRandomNews();
-      displayBlog(articles);
-    } catch (error) {
-      console.error("Error fetching random news", error);
-    }
-  };
+  try {
+    const articles = await fetchRandomNews();
+    displayBlog(articles);
+  } catch (error) {
+    console.error("Error fetching random news", error);
+  }
+};
